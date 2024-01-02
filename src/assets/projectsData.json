@@ -1,0 +1,19 @@
+
+
+[
+    {
+     "id": 1,
+     "projectName": "Introduction component",
+     "description": "This is a landing responsive page with a form component. I am currently working on client side validations",
+     "path": "https://github.com/enisber/introComponent_FrontEndMentor.git",
+     "technologies": ["HTML", "CSS", "React"]
+  },
+  {
+    "id": 2,
+    "projectName": "Results summary component",
+    "description": "This is a responsive layout interface for a results summary component. A JSON file is used to dynamically populate the content.",
+    "path": "https://github.com/enisber/results_summary_Frontend_Mentor.git",
+    "technologies": ["HTML", "CSS", "React"]
+  }
+  
+]

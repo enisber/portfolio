@@ -1,0 +1,46 @@
+
+.skillsSection{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    background-color: var(--main);
+    border-radius: 50px;
+}
+
+
+.skillsContainer{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.skillsContainer h2{
+    width: 100%;
+    text-align: center;   
+}
+
+.skillsItems{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+@keyframes slideLeft{
+    from{transform: translateX(0);}
+    to{transform: translateX(calc(-200px * 7));}
+}
+
+

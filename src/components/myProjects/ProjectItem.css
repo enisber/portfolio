@@ -1,0 +1,123 @@
+
+@font-face {
+    font-family: lightFont;
+    src: url(../../assets/fonts/Prompt-Light.ttf);
+}
+
+
+.itemProContainer{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 70% 30%;
+    gap: 15px;
+}
+
+.projectPresentation{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: var(--main);
+    border-radius: 20px;
+    padding: 30px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projectPresentation h3{
+    width: 100%;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.projectPresentation p{
+    width: 100%;
+}
+
+.itemTecnologias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.itemTecnologias p{
+    border: 1px solid var(--light-main);
+    border-radius: 100px;
+    font-family: lightFont;
+    font-size: 17px;
+    padding: 3px;
+}
+
+
+.githubLink a{
+    text-decoration: none;
+    color: var(--light-main);
+    font-family: fuenteH3;
+    font-size: 20px;
+    width: 35%;
+    transition: color 0.5s ease 0s;
+}
+
+.githubLink:hover {
+    cursor: pointer;
+}
+
+.projectImage1{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    border-radius: 20px;
+    background-color: black;
+}
+.projectImage2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border-radius: 20px;
+}
+
+.githubLink{
+    background: var(--main);
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border-radius: 20px;
+    padding: 30px;
+    animation: move_up_down 2s 7s infinite;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    color: var(--light-main);
+    transform: translateX(0);
+    transition: all 0.5s ease 0s;
+}
+
+.githubLink:hover, .githubLink:hover > a {
+    color: var(--secondary-purple);
+    animation: none;
+}
+
+.githubLink:hover{transform: translateX(20px);}
+
+.projectImage1 img, .projectImage2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+@keyframes move_up_down {
+ 0%, 25%, 100% {transform: translateX(0);}
+ 50%, 70%{transform: translateX(10px);}  
+ 60%{transform: translateX(6px);}
+}
