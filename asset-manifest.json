@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c12740b9.css",
+    "main.js": "/portfolio/static/js/main.8aeb856b.js",
+    "static/media/introComp3.jpg": "/portfolio/static/media/introComp3.516a0c654bcd1100b7bd.jpg",
+    "static/media/introComp2.png": "/portfolio/static/media/introComp2.2ed54a5fffa3486ce951.png",
+    "static/media/Prompt-SemiBold.ttf": "/portfolio/static/media/Prompt-SemiBold.a283df5464c25fe8e59a.ttf",
+    "static/media/Prompt-Regular.ttf": "/portfolio/static/media/Prompt-Regular.a8979f5fddba897421a7.ttf",
+    "static/media/Prompt-Light.ttf": "/portfolio/static/media/Prompt-Light.005f2ed2eec228056916.ttf",
+    "static/media/resultSum2.png": "/portfolio/static/media/resultSum2.422a8d8f121f8a579844.png",
+    "static/media/LexendGiga-Bold.ttf": "/portfolio/static/media/LexendGiga-Bold.dd99bed0420716c10397.ttf",
+    "static/media/LexendGiga-Black.ttf": "/portfolio/static/media/LexendGiga-Black.42fd12c0d89cee246ca4.ttf",
+    "static/media/introComp1.png": "/portfolio/static/media/introComp1.8b038681f5d9e99a2b84.png",
+    "static/media/resultSum1.png": "/portfolio/static/media/resultSum1.e0316b5e1d17480cf955.png",
+    "static/media/favicon.png": "/portfolio/static/media/favicon.56153f4779522a5a55fb.png",
+    "index.html": "/portfolio/index.html",
+    "main.c12740b9.css.map": "/portfolio/static/css/main.c12740b9.css.map",
+    "main.8aeb856b.js.map": "/portfolio/static/js/main.8aeb856b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c12740b9.css",
+    "static/js/main.8aeb856b.js"
+  ]
+}
